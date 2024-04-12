@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>RabatGirl </title>
+
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+      
+      body {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+      }
+  
+      swiper-container {
+        width:100%;
+        height: 50%;
+        position:relative;
+        margin-left:auto;
+        margin-right:auto;
+       /* margin-bottom: 20px;  */
+      }
+  
+      swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .contentt{
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+
+.bannert{
+  background: url("banner.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.aboutt{
+  padding: 30px 0;
+}
+.about .title{
+  font-size: 38px;
+  font-weight: 700;
+}
+.aboutt p{
+  padding-top: 20px;
+  text-align: justify;
+}
+
+@media (max-width: 1230px) {
+  .contentt{
+    padding: 0 60px;
+  }
+}
+@media (max-width: 1100px) {
+  .contentt{
+    padding: 0 40px;
+  }
+}
+@media (max-width: 900px) {
+  .contentt{
+    padding: 0 30px;
+  }
+}
+      
+  </style>
+  
+  
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo">RabatAngel </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link  ">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link active-link ">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="kodyrabatowe.html" class="nav__link ">Kody Rabatowe</a>
+            </li>
+            <li class="nav__item">
+              <a href="blog.html" class="nav__link ">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="kontakt.html" class="nav__link">Kontakt</a>
+            </li>
+          </ul>
+
+          <!-- Close Button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+            <!-- krzyzyk -->
+          </div>
+        </div>
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <img src="assets/img/photo24.jpg" alt="home image" class="home__bg" />
+        <div class="home__shadow"></div>
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h3 class="home__subtitle">Witamy na RabatAngel</h3>
+
+            <h1 class="home__title">
+              Kody  <br />Rabatowe
+            </h1>
+            <p class="home__description">
+              Live the trips exploring the world, discover paradises, islands,
+              mountains and much more ,get your trip now.
+            </p>
+            <a href="kodyrabatowe.html" class="button">
+              Kody Rabatowe <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="home__cards grid">
+            <article class="home__card">
+                <a href="https://www.google.com" > <img 
+                  src="assets/img/photo24.jpg"
+                  alt="home image"
+                    class="home__card-img"
+                  /> 
+                  <h3 class="home__card-title" >Nike</h3> </a>
+                  <div class="home__card-shadow"></div>
+                </article>
+    
+  
+              <article class="home__card">
+                <a href="https://www.google.com" > <img 
+                  src="assets/img/photo24.jpg"
+                  alt="home image"
+                    class="home__card-img"
+                  /> 
+                  <h3 class="home__card-title" >Adidas</h3> </a>
+                  <div class="home__card-shadow"></div>
+                </article>
+    
+  
+
+
+
+
+            <article class="home__card">
+            <a href="https://www.google.com" > <img 
+              src="assets/img/photo24.jpg"
+              alt="home image"
+                class="home__card-img"
+              /> 
+              <h3 class="home__card-title" >Reebok</h3> </a>
+              <div class="home__card-shadow"></div>
+            </article>
+            <article class="home__card">
+                <a href="https://www.google.com" > <img 
+                  src="assets/img/photo24.jpg"
+                  alt="home image"
+                    class="home__card-img"
+                  /> 
+                  <h3 class="home__card-title" >Puma</h3> </a>
+                  <div class="home__card-shadow"></div>
+                </article>
+    
+          </div>
+        </div>
+      </section>
+      </section>
+      
+     
+
+
+        
+        <div class="bannerr"></div>
+    
+        <div class="aboutt">
+          <div class="contentt">
+            <h1 style="text-align: center;">RabatAngel</h1>
+            <p>Witaj w RabatAngel - Twoim źródle niezrównanej przyjemności zakupów online! Jesteśmy platformą, która łączy pasjonatów zakupów z najlepszymi ofertami i rabatami w sieci. Nasza misja to zapewnienie Ci nie tylko dostępu do wysokiej jakości produktów, ale także możliwość oszczędzania podczas zakupów.
+
+              W RabatAngel wierzymy, że każdy zasługuje na wyjątkowe doznania zakupowe, dlatego stale poszukujemy najbardziej atrakcyjnych ofert i promocji, abyś mógł cieszyć się swoimi ulubionymi produktami bez obciążania portfela. Nasz zespół skrupulatnie sprawdza każdą ofertę, dbając o to, aby dostarczyć Ci tylko najlepsze i najbardziej korzystne możliwości zakupowe.
+              
+              Nieustannie rozwijamy naszą platformę, aby zapewnić Ci jeszcze wygodniejsze i bardziej satysfakcjonujące doświadczenie zakupowe. Dzięki naszym zaawansowanym narzędziom wyszukiwania i personalizowanym rekomendacjom możesz szybko znaleźć produkty, które spełnią Twoje oczekiwania, jednocześnie oszczędzając czas i pieniądze.
+              
+              Jesteśmy dumni z naszej społeczności, która skupia pasjonatów zakupów z różnych zakątków świata. To właśnie dzięki Wam, naszym użytkownikom, możemy stale doskonalić naszą platformę i dostosowywać ją do Waszych potrzeb i oczekiwań.
+              
+              Dziękujemy, że jesteś częścią RabatAngel. Razem tworzymy niepowtarzalne doświadczenie zakupowe, które sprawia radość każdemu z nas. Dołącz do nas już dziś i odkryj świat niekończących się możliwości zakupowych z RabatAngel!</p>
+          </div>
+        </div>
+      
+ 
+      
+  
+
+
+
+
+      <!--==================== JOIN ====================-->
+      <section class="join section">
+        <div class="join__container container grid">
+          <div class="join__data">
+            <h2 class="section__title">
+              Zapisz się do  <br />
+              Newsletter 
+            </h2>
+
+            <p class="join__description">
+              Bądź na bieżąco z naszą aktualną ofertą i promocjami
+            </p>
+
+            <form action="" class="join__form">
+              <input
+                type="email"
+                placeholder="Wprowadź swój email"
+                class="join__input"
+              />
+        
+            <button class="join__button button">
+              Substrybuj nasz Newsletter              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+        </form>
+
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eum voluptatibus cupiditate doloribus quasi accusamus deleniti dolor eligendi. Molestiae officiis totam cum nihil pariatur sapiente laboriosam consequatur distinctio ducimus reiciendis?
+          <div class="join__image">
+            <img
+            src="assets/img/about-beach.jpg"
+            alt="join image"
+              class="join__img"
+            />
+            <div class="join__shadow"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+    
+    
+
+
+
+
+
+
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div>
+            <a href="" class="footer__logo">RabatAngel</a>
+
+            <p class="footer__description">
+              Travel with us and explore <br />
+              the world without limits.
+            </p>
+          </div>
+
+          <div class="footer__data grid">
+            <div>
+              <h3 class="footer__title">About</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">About us</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Features</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">News&Blog</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer__title">Company</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">FAQs</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">History</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Testimonials</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer__title">Company</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">FAQs</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">History</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Testimonials</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer__title">Contact</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">Call Center</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Support Center</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <div class="footer__social">
+            <a href="" target="_blank" class="footer__social-link">
+              <i class="ri-facebook-line"></i>
+            </a>
+
+            <a href="" target="_blank" class="footer__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a href="" target="_blank" class="footer__social-link">
+              <i class="ri-twitter-line"></i>
+            </a>
+
+            <a href="" target="_blank" class="footer__social-link">
+              <i class="ri-youtube-line"></i>
+            </a>
+          </div>
+          <span class="footer__copy">
+            &#169; Copyright RabatAngel. All rights reserved
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
